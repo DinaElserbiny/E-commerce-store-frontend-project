@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 9%;
+    overflow: hidden;
+    flex-direction: column;
+    margin-top: 60px;
+
+    
+}
+.sign-up,
+.log-in{
+    display: flex;
+    margin-bottom: 140px;
+    margin-top: 60px;
+}
+
+.image-section {
+    max-width:100%;
+    flex: 1;
+    background: #CBE4E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-section {
+    max-width: 371px;
+    flex: 1;
+    padding: 0;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-section h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+    
+}
+
+.form-section p {
+    color: #000000;
+    margin: 24px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid transparent;
+    border-bottom-color: #ddd;
+}
+
+.sign-up .form-section button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-section .create-account {
+    background: #d9534f;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+.form-section .Enter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Go{
+    width: 143px;
+    padding: 16px 48px;
+    border-radius: 5px;
+    border: none;
+    background-color: #DB4444;
+    color:#fff;
+
+}
+.Enter a {
+    text-decoration: none;
+    color:#DB4444;
+}
+
+.sign-up .form-section .google-signup {
+    background: #fff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.google-signup img {
+    width: 18.68px;
+    margin-right: 16px;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 32px;
+    color: rgba(0, 0, 0);
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 70%;
+}
+
+.login-link a {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0); 
+    padding-bottom: 4px;
+    margin-left: 16px;
+}
+
+
+@media (max-width: 375px) {
+    /* body {
+        align-items: center;
+        text-align: center;
+    } */
+    
+    .container {
+        padding: 5%;
+        width: 100%;
+    }
+    
+    .sign-up,
+    .log-in {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    
+    .image-section {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    .form-section {
+        max-width: 100%;
+        padding: 0 5%;
+        margin-left: 0;
+    }
+    
+    .form-section h2 {
+        font-size: 24px;
+    }
+    
+    .form-section p {
+        font-size: 14px;
+        margin: 16px 0;
+    }
+    
+    .form-section input {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .sign-up .form-section button {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .google-signup img {
+        width: 16px;
+        margin-right: 10px;
+    }
+    
+    .login-link {
+        font-size: 14px;
+    }
+    .Enter{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
